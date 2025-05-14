@@ -1,0 +1,15 @@
+$primary-colr: lightblue;
+
+
+body {
+    background: $primary-colr;
+}
+
+
+ul {
+    li {
+        span {
+            color: blue;
+        }
+    }
+}
