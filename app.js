@@ -63,7 +63,7 @@ const updateStat = () => {
   const progress = (completeTasks / totalTasks) * 100;
 
   const progressBar=document.getElementById('progress')
-  progressBar.style.widows=`${progress}%`
+  progressBar.style.width=`${progress}%`
 
   document.getElementById("num").innerText=`${completeTasks}/${totalTasks}`
 
